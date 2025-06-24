@@ -10,6 +10,7 @@ import {
 
 import data from "./data.json"
 
+
 export default function Page() {
   return (
     <SidebarProvider
@@ -35,6 +36,7 @@ export default function Page() {
           </div>
         </div>
       </SidebarInset>
+  
     </SidebarProvider>
   )
 }
